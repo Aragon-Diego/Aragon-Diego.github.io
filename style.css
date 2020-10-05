@@ -14,8 +14,18 @@ body{
 textarea{
     opacity: 0.0;
 }
+#blue{
+    color:#00FE83;
+}
+li{
+    margin-bottom: 5px;
+}
 @media only screen and (min-width: 770px){
-
+    ul:nth-of-type(1) {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+      }
     .zero{
         height:10vh;
     }
