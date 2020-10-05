@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>Diego Aragon</title>
+    <link rel="shortcut icon" href="src/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="info">
+        <div class="zero">
+            <h1 class="der">Diego Aragón Villarreal</h1>
+            <br />
+            <br />
+            <h2 class="der">Ing. en Tecnologías Computacionales</h2>
+            <br />
+        </div>
+        <!--
+  ^~^   ,
+ ('Y')  )
+ /   \ / 
+(\|||/) ~hola, gracias por ver mi CV :)
+        -->
+        <div class="divition2"></div>
+        <div class="first">
+            <div class="divContacto">
+                <h1>Contacto:</h1>
+                <br />
+                <br />
+                <a href="mailto:diego.aragon@udem.edu">
+                    <img class="iconos" src="src/sobre.svg" />
+                </a>
+                <a href="mailto:diego.aragon@udem.edu">
+                    <p class="contacto">diego.aragon@udem.edu</p>
+                </a>
+                <br class="br" />
+                <br />
+                <img class="iconos" src="src/telefono.svg" onclick="copy()" id="celIco" />
+                <p onclick="copy()" class="contacto" id="cel">8182729751</p>
+                <br class="br" />
+                <br />
+                <a href="https://github.com/Aragon-Diego" target="_blank">
+                    <img class="iconos" src="src/github.svg" />
+                </a>
+                <a href="https://github.com/Aragon-Diego" target="_blank">
+                    <p class="contacto">Aragon-Diego</p>
+                </a>
+            </div>
+            <div class="divition2"></div>
+            <div class="perfil">
+                <h3>Perfil:</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. </p>
+            </div>
+        </div>
+        <div class="divition"></div>
+        <div class="detalles">
+            <h3>Habilidades:</h3>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            <div class="divition2"></div>
+            <h3>Proyectos:</h3>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            <div class="divition2"></div>
+            <h3>Logros:</h3>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            <div class="divition2"></div>
+            <h3>Pasiones:</h3>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function copy() {
+            var dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = "8182729751";
+            dummy.select();
+            dummy.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("Copied the text: " + dummy.value);
+            document.body.removeChild(dummy);
+        }
+    </script>
+</body>
+
+</html>
