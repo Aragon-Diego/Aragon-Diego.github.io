@@ -14,7 +14,7 @@ body{
 textarea{
     opacity: 0.0;
 }
-#blue{
+.blue{
     color:#00FE83;
 }
 li{
@@ -26,6 +26,9 @@ li{
         -webkit-columns: 2;
         -moz-columns: 2;
       }
+    ul ul{
+        margin-left: 5%;
+    }
     .zero{
         height:10vh;
     }
