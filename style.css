@@ -5,6 +5,10 @@
     font-family: 'Lexend Deca', sans-serif;
     font-weight:300;
 }
+.divition3{
+    width:100% ;
+    height:50px ;
+}
 body{
     background-color: #00121b;
 }
@@ -23,7 +27,16 @@ li{
 .contacto{
     text-decoration: underline;
 }
+
 @media only screen and (min-width: 770px){
+    .full, .full li {
+        display: normal;
+     }
+    .pas, .voluntariado{
+        float: left;
+        width: 50%;
+
+    }
     ul ul{
         margin-left: 5%;
     }
