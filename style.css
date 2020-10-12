@@ -29,14 +29,20 @@ li{
 }
 
 @media only screen and (min-width: 770px){
+    .pas, .voluntariado{
+        width: 48%;
+        float: left;
+    }
+    .voluntariado{
+        width: 45%;
+        padding-left: 5%;
+        height: 25%;
+        border-left:  #00FE83 solid 2px;
+    }
     .full, .full li {
         display: normal;
      }
-    .pas, .voluntariado{
-        float: left;
-        width: 50%;
-
-    }
+    
     ul ul{
         margin-left: 5%;
     }
